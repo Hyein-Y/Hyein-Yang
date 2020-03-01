@@ -1,27 +1,28 @@
-remote_theme : BlackrockDigital/startbootstrap-clean-blog-jekyll
+remote_theme : poole/hyde
 
-title:              Clean Blog
-email:              hiyang0125@gmail.com
-description:        Hyein Yang Web
-author:             Start Bootstrap
-baseurl:            " "
-url:                "https://hyeinyang.github.io"
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Social Profiles
-twitter_username:   
-github_username:    hyeinyang
-facebook_username:  
-linkedin_username:
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+# Setup
+title:            Hyein
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              "http://hyeinyang.github.io"
+baseurl:          " "
 
-# Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+author:
+  name:           'Hyein Yang'
+  url:            https://twitter.com/mdo
 
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
