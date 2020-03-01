@@ -1,4 +1,3 @@
-remote_theme : poole/hyde
 
 # Dependencies
 markdown:         redcarpet
