@@ -10,9 +10,9 @@ relative_permalinks: true
 # Setup
 title:            Hyein
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              "http://hyeinyang.github.io"
-baseurl:          " "
+description:      'Hello'
+url:              http://hyeinyang.github.io
+baseurl:          /
 
 author:
   name:           'Hyein Yang'
